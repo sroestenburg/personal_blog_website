@@ -1,0 +1,11 @@
+/* imported css files*/
+
+@import "./container.css";
+@import "./navigation.css";
+@import "./header.css";
+@import "./card.css";
+@import "./blogpost.css";
+@import "./form.css";
+@import "./aside.css";
+@import "./footer.css";
+@import "./blogpage.css";

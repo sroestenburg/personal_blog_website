@@ -1,0 +1,147 @@
+/* navigation*/
+
+nav{
+    grid-area: nav;
+    
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+}
+
+.topnavLeft{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;   
+}
+
+.navTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navTitle h1{
+    font-family: 'Nothing You Could Do', cursive;
+    text-align: center;
+    
+}
+
+.topnavRight{
+    display: flex;
+    flex-direction: column;    
+}
+
+.navMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navMenu a{
+    font-family: 'Amiri', serif;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* large devices*/
+@media (min-width: 992px)and (max-width: 1199px){
+    nav{
+        grid-area: nav;
+        
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 100%;
+    }
+    
+    .topnavLeft h1{
+        font-family: 'Nothing You Could Do', cursive;
+        padding-top: 13px;
+    }
+    
+    .topnavLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 55%;
+    }
+    
+    .topnavRight{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        
+    }
+    
+    .navMenu a{
+        display: flex;
+        flex-direction: row;
+        color: black;
+        font-family: 'Amiri', serif;
+        padding: 10px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+}
+
+@media (min-width: 1200px){
+
+    nav{
+        grid-area: nav;
+        
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 100%;
+    }
+    
+    .topnavLeft h1{
+        font-family: 'Nothing You Could Do', cursive;
+        padding-top: 13px;
+    }
+    
+    .topnavLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 55%;
+    }
+    
+    .topnavRight{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        
+    }
+    
+    .navMenu a{
+        display: flex;
+        flex-direction: row;
+        color: black;
+        font-family: 'Amiri', serif;
+        padding: 10px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+}

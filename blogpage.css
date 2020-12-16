@@ -1,0 +1,236 @@
+/* blogpost page */
+
+.mainPost{
+    display: flex;
+    flex-direction: column;
+}
+
+.blogHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: 'Dancing Script', cursive;
+    color:#408080;
+    font-size: 30px;
+}
+
+.blogHeader h2{
+    font-family: 'Dancing Script', cursive;
+    color:#408080;
+    font-size: 40px;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    background-color: #f0eeed;
+    margin-bottom: 20px;  
+}
+
+h2,h4{
+    color:#408080;
+    font-family:'Lato', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mainContent ul,ol{
+    color:#408080;
+    line-height: 1.6;
+}
+
+.blogPhoto{
+    width: 100%;
+    height: 250px;
+}
+
+.photoBlog{
+    width: 100%;
+    height: 250px;
+}
+
+.recipe{
+    background-color: white;
+    margin: 5px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+}
+
+.blogText{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;   
+}
+
+.blogText h1{
+    color:#408080;
+    font-family:'Lato', sans-serif;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.blogText h3{
+    color:#797069;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.blogText p{
+    color:#408080;
+    line-height: 1.6;
+    font-size: large;
+    margin-top: 5px;
+}
+
+.blogText a{
+    text-decoration: none;
+    color: #797069;
+    font-weight: 700;
+}
+
+/* images*/
+
+#berryImage{
+    background-image: url('images/bbcupcakes.jpg');
+    background-size: cover;
+}
+
+#batterImage{
+    background-image: url('images/cupcakebatter.jpg');
+    background-size: cover;
+    margin-top: 20px;
+}
+
+#ingredientImage{
+    background-image: url('images/ingredients.jpg');
+    background-size: cover;
+}
+
+/* landscape phones*/
+@media (min-width: 567px)  and (max-width: 767px){
+
+.blogPhoto{
+    width: 100%;
+    height: 450px;
+}
+
+.photoBlog{
+    width: 100%;
+    height: 450px;
+}
+
+}
+
+/* tablets*/
+@media (min-width: 768px)and (max-width: 991px){
+
+.mainPost{
+    display: grid;
+    gap: 10px;
+    width: 90%;
+    grid-template-areas: 
+    "top"
+    "bottom";
+    justify-content: space-around;
+}
+    
+.blogHeader{
+    grid-area: top;
+}
+
+#post{
+    grid-area: bottom;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: space-around;
+    background-color: #f0eeed;
+    margin-bottom: 20px;  
+}
+   
+.blogPhoto{
+    width: 100%;
+    height: 550px;
+}
+    
+.photoBlog{
+    width: 100%;
+    height: 550px;
+}
+
+}
+
+/* large devices*/
+@media (min-width: 992px)and (max-width: 1199px){
+    
+    .blogPhoto{
+        width: 100%;
+        height: 500px;
+    }
+        
+    .photoBlog{
+        width: 100%;
+        height: 550px;
+    }
+
+    
+}
+
+/* extra large devices*/
+@media (min-width: 1200px){
+    
+    .mainPost{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blogHeader{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        font-family: 'Dancing Script', cursive;
+        color:#408080;
+        font-size: 30px;
+    }
+    
+    .blogHeader h2{
+        font-family: 'Dancing Script', cursive;
+        color:#408080;
+        font-size: 40px;
+    }
+    
+    .mainContent{
+        display: flex;
+        flex-direction: column;
+        background-color: #f0eeed;
+        margin-bottom: 20px;  
+    }
+    
+    .photo{
+        margin-left: 0;
+    }
+    
+    .blogPhoto{
+        width: 100%;
+        height: 550px;
+    }
+        
+    .photoBlog{
+        width: 100%;
+        height: 600px;
+    }
+
+    
+}

@@ -1,0 +1,129 @@
+/* Footer*/
+
+footer{
+    grid-area: ft;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    width:100%;
+}
+
+.footerLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLeft h3{
+    color:#408080;
+    font-family:'Amiri', serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footerRight{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;    
+}
+
+.footerRight ul{
+    margin-top:0;
+    text-align: center;
+    padding-left:0;
+}
+
+.footerRight li {
+    display: inline-block;
+    padding: 5px;
+    color:white;
+    font-family:'Amiri', serif;
+    text-decoration: none;
+}
+/* large devices*/
+@media (min-width: 992px)and (max-width: 1199px){
+    footer{
+        grid-area: ft;
+    }
+
+    #footer{
+        display: flex;
+        flex-direction: row;
+        justify-items: stretch;
+        background-color: black;
+    }
+
+    .footerLeft{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        padding-left: 20px;
+    }
+
+    .footerLeft h3{
+        color:#408080;
+        font-family:'Amiri', serif;
+        font-size:20px;
+    }
+    
+    .footerRight{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    .footerRight li {
+        display: inline-block;
+        padding: 20px;
+        color:white;
+        font-family:'Amiri', serif;
+        font-size:20px;
+        text-decoration: none;
+    }
+}
+
+ 
+@media (min-width: 1200px){
+
+    footer{
+        grid-area: ft;
+    }
+
+    #footer{
+        display: flex;
+        flex-direction: row;
+        justify-items: stretch;
+        background-color: black;
+    }
+
+    .footerLeft{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        padding-left: 20px;
+    }
+
+    .footerLeft h3{
+        color:#408080;
+        font-family:'Amiri', serif;
+        font-size: 20px;
+    }
+    
+    .footerRight{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    
+    .footerRight li {
+        display: inline-block;
+        padding: 20px;
+        color:white;
+        font-family:'Amiri', serif;
+        font-size: 20px;
+        text-decoration: none;
+    }
+}

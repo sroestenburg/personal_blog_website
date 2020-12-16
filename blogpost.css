@@ -1,0 +1,417 @@
+/* main page  main-blogpost section*/
+
+main{
+    grid-area: main;
+}
+
+.blogPost{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+}
+
+.headerTitle h2{
+    font-family: 'Dancing Script', cursive;
+    color:#408080;
+    font-size: 40px;
+}
+
+.blogContent{
+    display: flex;
+    flex-direction: column;
+    background-color: #f0eeed;
+    margin-bottom: 20px;    
+}
+
+.columnLeft{
+    display: flex;
+    flex-direction: column;    
+}
+
+#cupcakeImage{
+    background-image: url('images/bbcupcakes.jpg');
+    background-size: cover;
+   
+}
+
+#kruidnootImage{
+    background-image: url('images/kruidnoten.jpg');
+    background-size: cover;    
+}
+
+.blogImage{
+    width: 100%;
+    height: 250px;
+}
+
+.columnRight{
+    display: flex;
+    flex-direction: column;    
+}
+
+.columnRight h2{
+    color:#408080;
+    font-family:'Lato', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.columnRight h3{
+    color:#797069;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.columnRight p{
+    color:#408080;
+    line-height: 1.6;
+    font-size: large;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.columnRight a{
+    text-decoration: none;
+    color: #797069;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+
+
+
+/* landscape phones*/
+@media (min-width: 567px)  and (max-width: 767px){
+    .blogPost{
+        display: grid;
+        gap: 10px;
+        width: 70%;
+        grid-template-areas: 
+        "top "
+        "center"
+        "bottom";
+    }
+    
+    .headerTitle{
+        grid-area: top;
+    }
+
+    #blog1{
+        grid-area: center;
+    }
+
+    #blog2{
+        grid-area: bottom;
+    }
+    
+    .blogImage{
+        width: 100%;
+        height: 300px;
+    }
+
+    .headerTitle h2{
+        font-family: 'Dancing Script', cursive;
+        color:#408080;
+        font-size: 40px;
+    }
+    
+}
+
+/* tablets*/
+@media (min-width: 768px)and (max-width: 991px){
+    .blogPost{
+        display: grid;
+        gap: 10px;
+        width: 88%;
+        grid-template-areas: 
+        "top "
+        "center"
+        "bottom";
+    }
+    
+    .headerTitle{
+        grid-area: top;
+    }
+
+    #blog1{
+        grid-area: center;
+    }
+
+    #blog2{
+        grid-area: bottom;
+    }
+    
+    .blogImage{
+        width: 100%;
+        height: 500px;
+    }
+
+    .headerTitle h2{
+        font-family: 'Dancing Script', cursive;
+        color:#408080;
+        font-size: 40px;
+    }
+
+}
+/* large devices*/
+@media (min-width: 992px)and (max-width: 1199px){
+    main{
+        grid-area: main;
+    }
+    
+    .blogPost{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    
+    .headerTitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 150px;
+        
+    }
+
+    .headerTitle h2{
+        font-family: 'Dancing Script', cursive;
+        color:#408080;
+        font-size: 40px;
+    }
+    
+    .blogContent{
+        display: flex;
+        flex-direction: row;
+        background-color: #f0eeed;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    
+    .columnLeft{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    #cupcakeImage{
+        background-image: url('images/bbcupcakes.jpg');
+        background-size: cover;
+       
+        
+    }
+    
+    #kruidnootImage{
+        background-image: url('images/kruidnoten.jpg');
+        background-size: cover;
+        
+    }
+    
+    .blogImage{
+        width: 250px;
+        height: 200px;
+    }
+    
+    .columnRight{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        
+    }
+    
+    .columnRight h2{
+        color:#408080;
+        font-family:'Lato', sans-serif;
+        margin-top: 10px;
+        text-align: start;
+        
+    }
+    
+    .columnRight h3{
+        color:#797069;
+        font-family: 'Lato', sans-serif;
+        margin-top: 5px;
+        text-align: start ;
+    }
+    
+    .columnRight p{
+        color:#408080;
+        line-height: 1.6;
+        font-size: large;
+        margin-top: 5px;
+        padding-left: 0;
+    }
+    
+    .columnRight a{
+        text-decoration: none;
+        color: #797069;
+        font-weight: 700;
+        padding-left: 0;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+/* main page  main-blogpost section*/
+
+    main{
+        grid-area: main;
+    }
+    
+    .blogPost{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    
+    .headerTitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 150px;
+        
+    }
+
+    .headerTitle h2{
+        font-family: 'Dancing Script', cursive;
+        color:#408080;
+        font-size: 40px;
+    }
+    
+    .blogContent{
+        display: flex;
+        flex-direction: row;
+        background-color: #f0eeed;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    
+    .columnLeft{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    #cupcakeImage{
+        background-image: url('images/bbcupcakes.jpg');
+        background-size: cover;
+       
+        
+    }
+    
+    #kruidnootImage{
+        background-image: url('images/kruidnoten.jpg');
+        background-size: cover;
+        
+    }
+    
+    .blogImage{
+        width: 300px;
+        height: 250px;
+    }
+    
+    .columnRight{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        
+    }
+    
+    .columnRight h2{
+        color:#408080;
+        font-family:'Lato', sans-serif;
+        margin-top: 10px;
+        text-align: start;
+        
+    }
+    
+    .columnRight h3{
+        color:#797069;
+        font-family: 'Lato', sans-serif;
+        margin-top: 5px;
+        text-align: start ;
+    }
+    
+    .columnRight p{
+        color:#408080;
+        line-height: 1.6;
+        font-size: large;
+        margin-top: 5px;
+        padding-left: 0;
+    }
+    
+    .columnRight a{
+        text-decoration: none;
+        color: #797069;
+        font-weight: 700;
+        padding-left: 0;
+    }
+
+    /* blogpost page main-blogpost section*/
+
+    .mainPost{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blogHeader{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 150px;
+        font-family: 'Dancing Script', cursive;
+        color:#408080;
+        font-size: 30px;
+    }
+
+    .mainContent{
+        display: flex;
+        flex-direction: column;
+        background-color: #f0eeed;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 20px;   
+    }
+
+    #berryImage{
+        background-image: url('images/bbcupcakes.jpg');
+        background-size: cover;
+        
+    }
+
+    .photo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+         
+    }
+
+    .blogPhoto{
+        width: 800px;
+        height: 600px;
+    }
+    
+    .blogText{
+        display: flex;
+        flex-direction: column;
+        padding: 15px; 
+    }
+    
+    .blogText h1{
+        color:#408080;
+        font-family:'Lato', sans-serif;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+

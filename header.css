@@ -1,0 +1,133 @@
+/* header mainPage*/
+
+header{
+    grid-area: hd;
+} 
+
+.headerImage{
+    display: flex;
+    flex-direction: row;
+    background-image: url('images/header.png');
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+}
+
+.imageText{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    height: 75px;
+    font-size: 20px;
+}
+
+/* landscape phones*/
+@media (min-width: 567px)and (max-width: 767px){
+    .headerImage{
+        display: flex;
+        flex-direction: row;
+        background-image: url('images/header.png');
+        background-size: cover;
+        width: 435px;
+        height: 200px;
+    }
+}
+
+/* tablets*/
+@media (min-width: 768px)and (max-width: 991px){
+    .headerImage{
+        display: flex;
+        flex-direction: row;
+        background-image: url('images/header.png');
+        background-size: cover;
+        width: 768px;
+        height: 200px;
+    }
+}
+
+/* large devices*/
+@media (min-width: 992px)and (max-width: 1199px){
+    header{
+        grid-area: hd;
+    } 
+    
+    .headerImage{
+        display: flex;
+        background-image: url('images/header.png');
+        background-size: cover;
+        width: 100%;
+        height: 350px;
+    }
+        
+    .imageText{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px auto;
+        padding: 40px;
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+    }
+        
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 150px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+    }
+}
+
+/* extra large devices*/
+@media (min-width: 1200px){
+
+    header{
+        grid-area: hd;
+    } 
+    
+    .headerImage{
+        display: flex;
+        background-image: url('images/header.png');
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+    }
+        
+    .imageText{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px auto;
+        padding: 40px;
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+    }
+        
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 150px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+    }
+    
+}

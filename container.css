@@ -1,0 +1,89 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, auto);
+    gap: 5px;
+    grid-template-areas: 
+    "nav"
+    "hd"
+    "sc"
+    "main"
+    "sd"
+    "ft";
+}
+/* landscape phones*/
+@media (min-width: 567px)and (max-width: 767px){
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(100px, auto);
+        gap: 5px;
+        grid-template-areas: 
+        "nav"
+        "hd"
+        "sc"
+        "main"
+        "sd"
+        "ft";
+        justify-items: center;
+    }
+}
+
+/* tablets*/
+@media (min-width: 768px)and (max-width: 991px){
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(100px, auto);
+        gap: 5px;
+        grid-template-areas: 
+        "nav"
+        "hd"
+        "sc"
+        "main"
+        "sd"
+        "ft";
+        justify-items: center;
+    }
+}
+
+/* large devices*/
+@media (min-width: 992px)and (max-width: 1199px){
+    .container{
+        display: grid;
+        width:100%;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: minmax(100px, auto);
+        gap: 5px;
+        grid-template-areas: 
+        "nav nav nav nav nav nav"
+        "hd hd hd hd hd hd"
+        "sc sc sc sc sc sc"
+        "main main main main sd sd"
+        "ft ft ft ft ft ft";
+        justify-items: stretch;
+        
+    }
+}
+
+/* extra large devices*/
+@media (min-width: 1200px){
+    
+    .container{
+        display: grid;
+        width:100%;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: minmax(100px, auto);
+        gap: 5px;
+        grid-template-areas: 
+        "nav nav nav nav nav nav"
+        "hd hd hd hd hd hd"
+        "sc sc sc sc sc sc"
+        "main main main main sd sd"
+        "ft ft ft ft ft ft";
+        justify-items: stretch;
+        
+    }
+}
