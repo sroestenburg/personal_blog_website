@@ -41,14 +41,9 @@ h2,h4{
     line-height: 1.6;
 }
 
-.blogPhoto{
-    width: 100%;
-    height: 250px;
-}
-
 .photoBlog{
     width: 100%;
-    height: 250px;
+    height: 275px;
 }
 
 .recipe{
@@ -94,32 +89,48 @@ h2,h4{
     color: #797069;
     font-weight: 700;
 }
+blockquote{
+    text-align: center;
+    color:#797069;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Dancing Script', cursive;
+}
 
 /* images*/
 
-#berryImage{
-    background-image: url('images/bbcupcakes.jpg');
-    background-size: cover;
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption{
+    color:#408080;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 #batterImage{
-    background-image: url('images/cupcakebatter.jpg');
+    background-image: url('../images/cupcakebatter.jpg');
     background-size: cover;
     margin-top: 20px;
 }
 
 #ingredientImage{
-    background-image: url('images/ingredients.jpg');
+    background-image: url('../images/ingredients.jpg');
     background-size: cover;
+}
+
+blockquote{
+    text-align: center;
+    color:#797069;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
 }
 
 /* landscape phones*/
 @media (min-width: 567px)  and (max-width: 767px){
-
-.blogPhoto{
-    width: 100%;
-    height: 450px;
-}
 
 .photoBlog{
     width: 100%;
@@ -157,11 +168,6 @@ h2,h4{
     background-color: #f0eeed;
     margin-bottom: 20px;  
 }
-   
-.blogPhoto{
-    width: 100%;
-    height: 550px;
-}
     
 .photoBlog{
     width: 100%;
@@ -172,15 +178,18 @@ h2,h4{
 
 /* large devices*/
 @media (min-width: 992px)and (max-width: 1199px){
-    
-    .blogPhoto{
-        width: 100%;
-        height: 500px;
-    }
-        
+      
     .photoBlog{
         width: 100%;
         height: 550px;
+    }
+
+    blockquote{
+        text-align: center;
+        color:#797069;
+        font-weight: 700;
+        font-size: 25px;
+        font-family: 'Dancing Script', cursive;
     }
 
     
@@ -221,15 +230,17 @@ h2,h4{
     .photo{
         margin-left: 0;
     }
-    
-    .blogPhoto{
-        width: 100%;
-        height: 550px;
-    }
-        
+       
     .photoBlog{
         width: 100%;
         height: 600px;
+    }
+    blockquote{
+        text-align: center;
+        color:#797069;
+        font-weight: 700;
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
     }
 
     

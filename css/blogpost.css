@@ -37,13 +37,13 @@ main{
 }
 
 #cupcakeImage{
-    background-image: url('images/bbcupcakes.jpg');
+    background-image: url('../images/bbcupcakes.jpg');
     background-size: cover;
    
 }
 
 #kruidnootImage{
-    background-image: url('images/kruidnoten.jpg');
+    background-image: url('../images/kruidnoten.jpg');
     background-size: cover;    
 }
 
@@ -203,14 +203,14 @@ main{
     }
     
     #cupcakeImage{
-        background-image: url('images/bbcupcakes.jpg');
+        background-image: url('../images/bbcupcakes.jpg');
         background-size: cover;
        
         
     }
     
     #kruidnootImage{
-        background-image: url('images/kruidnoten.jpg');
+        background-image: url('../images/kruidnoten.jpg');
         background-size: cover;
         
     }
@@ -302,14 +302,14 @@ main{
     }
     
     #cupcakeImage{
-        background-image: url('images/bbcupcakes.jpg');
+        background-image: url('../images/bbcupcakes.jpg');
         background-size: cover;
        
         
     }
     
     #kruidnootImage{
-        background-image: url('images/kruidnoten.jpg');
+        background-image: url('../images/kruidnoten.jpg');
         background-size: cover;
         
     }
@@ -383,7 +383,7 @@ main{
     }
 
     #berryImage{
-        background-image: url('images/bbcupcakes.jpg');
+        background-image: url('../images/bbcupcakes.jpg');
         background-size: cover;
         
     }

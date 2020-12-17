@@ -36,17 +36,17 @@ section{
 }
 
 #one{
-    background-image: url('images/pancakes.jpg');
+    background-image: url('../images/pancakes.jpg');
     background-size: cover;
 }
  
  #two{
-     background-image: url('images/bananabread.jpg');
+     background-image: url('../images/bananabread.jpg');
      background-size: cover;
 }
  
  #three{
-     background-image: url('images/kruidnoten.jpg');
+     background-image: url('../images/kruidnoten.jpg');
      background-size: cover;
 }
  
@@ -154,17 +154,17 @@ section{
     }
     
     #one{
-        background-image: url('images/pancakes.jpg');
+        background-image: url('../images/pancakes.jpg');
         background-size: cover;
     }
         
     #two{
-        background-image: url('images/bananabread.jpg');
+        background-image: url('../images/bananabread.jpg');
         background-size: cover;
     }
         
     #three{
-        background-image: url('images/kruidnoten.jpg');
+        background-image: url('../images/kruidnoten.jpg');
         background-size: cover;
     }
     
@@ -217,17 +217,17 @@ section{
     }
     
     #one{
-        background-image: url('images/pancakes.jpg');
+        background-image: url('../images/pancakes.jpg');
         background-size: cover;
     }
         
     #two{
-        background-image: url('images/bananabread.jpg');
+        background-image: url('../images/bananabread.jpg');
         background-size: cover;
     }
         
     #three{
-        background-image: url('images/kruidnoten.jpg');
+        background-image: url('../images/kruidnoten.jpg');
         background-size: cover;
     }
     

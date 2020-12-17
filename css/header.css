@@ -7,7 +7,7 @@ header{
 .headerImage{
     display: flex;
     flex-direction: row;
-    background-image: url('images/header.png');
+    background-image: url('../images/header.png');
     background-size: cover;
     width: 100%;
     height: 150px;
@@ -39,7 +39,7 @@ header{
     .headerImage{
         display: flex;
         flex-direction: row;
-        background-image: url('images/header.png');
+        background-image: url('../images/header.png');
         background-size: cover;
         width: 435px;
         height: 200px;
@@ -51,7 +51,7 @@ header{
     .headerImage{
         display: flex;
         flex-direction: row;
-        background-image: url('images/header.png');
+        background-image: url('../images/header.png');
         background-size: cover;
         width: 768px;
         height: 200px;
@@ -66,7 +66,7 @@ header{
     
     .headerImage{
         display: flex;
-        background-image: url('images/header.png');
+        background-image: url('../images/header.png');
         background-size: cover;
         width: 100%;
         height: 350px;
@@ -103,7 +103,7 @@ header{
     
     .headerImage{
         display: flex;
-        background-image: url('images/header.png');
+        background-image: url('../images/header.png');
         background-size: cover;
         width: 100%;
         height: 450px;
